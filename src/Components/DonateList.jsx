@@ -1,6 +1,3 @@
-// DonateList.jsx
-// This is the DonateList. It takes a places array as a prop.
-// It will be used on the Donate page to show links to organizations to donate to.
 
 function DonateList({ places }) {
     return (

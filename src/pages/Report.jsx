@@ -1,5 +1,4 @@
-// Report.jsx
-// The Report page. Uses the ReportForm component and shows submitted reports below.
+
 
 import { useState } from "react";
 import ReportForm from "../Components/ReportForm";

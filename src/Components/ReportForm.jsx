@@ -1,6 +1,4 @@
-// ReportForm.jsx
-// This is the ReportForm. It takes an onSubmit prop and uses useState for all inputs.
-// It will be used on the Report page so users can submit a new pothole report.
+
 
 import { useState } from "react";
 

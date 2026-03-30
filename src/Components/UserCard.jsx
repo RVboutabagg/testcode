@@ -1,6 +1,3 @@
-// UserCard.jsx
-// This is the UserCard. It takes name, tagline, email, gender, and reportCount as props.
-// It will be used on the Profile page to display user stats.
 
 function UserCard({ name, tagline, email, gender, reportCount }) {
     return (

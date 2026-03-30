@@ -1,10 +1,8 @@
-// Profile.jsx
-// The Profile page. Shows a UserCard with the user's info and stats.
 
 import UserCard from "../Components/UserCard";
 
 function Profile() {
-  // In a real app this data would come from a database / auth system
+  
   const user = {
     name: "Your Name",
     tagline: "Oakland resident & road advocate",

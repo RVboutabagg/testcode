@@ -1,6 +1,3 @@
-// App.jsx
-// Main app file. Handles page navigation using useState — no router library needed.
-
 import { useState } from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";

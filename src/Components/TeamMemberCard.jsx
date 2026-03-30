@@ -1,6 +1,4 @@
-// TeamMemberCard.jsx
-// This is the TeamMemberCard. It takes name, role, bio, and imgUrl as props.
-// It will be used on the About Us page to show each team member.
+
 
 function TeamMemberCard({ name, role, bio, imgUrl }) {
     return (

@@ -1,5 +1,4 @@
-// Donate.jsx
-// The Donate page. Has a donation form with email + amount, and a list of places to donate to.
+
 
 import { useState } from "react";
 import DonateList from "../Components/DonateList";

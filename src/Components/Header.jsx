@@ -1,6 +1,4 @@
-// Header.jsx
-// This is the Header/NavBar. It takes currentPage and onNavigate as props.
-// It appears on every page and lets users switch between pages.
+
 
 function Header({ currentPage, onNavigate }) {
     const links = ["Home", "About", "Donate", "Report", "Profile"];

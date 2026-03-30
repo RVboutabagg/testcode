@@ -1,6 +1,5 @@
 // PotholeCard.jsx
-// This is the PotholeCard. It takes location, description, date, and severity as props.
-// It will be used on the Home page to display reported potholes.
+
 
 import SeverityBadge from "./SeverityBadge";
 

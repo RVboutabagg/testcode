@@ -1,5 +1,4 @@
-// About.jsx
-// The About Us page. Shows team member cards and a mission statement.
+
 
 import TeamMemberCard from "../Components/TeamMemberCard";
 

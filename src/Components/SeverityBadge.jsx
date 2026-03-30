@@ -1,6 +1,4 @@
-// SeverityBadge.jsx
-// This is the SeverityBadge. It takes a severity prop ("low", "medium", or "high").
-// It will be used inside PotholeCard and on the Report page to visually indicate pothole severity.
+
 
 function SeverityBadge({ severity }) {
     const styles = {

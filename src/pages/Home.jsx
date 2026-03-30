@@ -1,5 +1,3 @@
-// Home.jsx
-// The Home page. Shows a welcome message, quick nav buttons, and a list of recent pothole reports.
 
 import PotholeCard from "../Components/PotholeCard";
 

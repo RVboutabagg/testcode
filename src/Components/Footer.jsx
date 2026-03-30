@@ -1,5 +1,4 @@
-// Footer.jsx
-// Simple footer shown on every page.
+
 
 function Footer() {
     return (
