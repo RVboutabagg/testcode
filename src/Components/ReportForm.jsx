@@ -35,19 +35,19 @@ function ReportForm({ onSubmit }) {
 
   return (
     <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm max-w-lg w-full">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Report a Pothole</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">Place Holder</h2>
 
       {submitted && (
         <p className="text-green-600 text-sm font-medium mb-4 bg-green-50 border border-green-200 rounded-lg px-3 py-2">
-          ✅ Report submitted! Thank you.
+          Place Holder
         </p>
       )}
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-        {/* Location */}
+        
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Location of Pothole
+          Place Holder
           </label>
           <input
             type="text"
@@ -58,10 +58,10 @@ function ReportForm({ onSubmit }) {
           />
         </div>
 
-        {/* Road Condition */}
+       
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Overall Condition of Road
+          Place Holder
           </label>
           <div className="flex flex-col gap-1">
             {conditions.map((c) => (
@@ -80,10 +80,10 @@ function ReportForm({ onSubmit }) {
           </div>
         </div>
 
-        {/* Severity */}
+        
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            How Severe is the Pothole?
+          Place Holder
           </label>
           <select
             value={severity}
@@ -96,10 +96,10 @@ function ReportForm({ onSubmit }) {
           </select>
         </div>
 
-        {/* Estimated Radius */}
+       
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Est. Radius (inches)
+          Place Holder(inches)
           </label>
           <input
             type="number"
@@ -114,7 +114,7 @@ function ReportForm({ onSubmit }) {
           type="submit"
           className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-2 rounded-lg text-sm transition-colors"
         >
-          Submit Report
+         Place Holder
         </button>
       </form>
     </div>

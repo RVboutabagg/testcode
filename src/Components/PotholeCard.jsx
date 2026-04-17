@@ -1,4 +1,4 @@
-// PotholeCard.jsx
+
 
 
 import SeverityBadge from "./SeverityBadge";

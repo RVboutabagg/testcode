@@ -14,9 +14,9 @@ function Report() {
   return (
     <div className="p-6 max-w-2xl mx-auto flex flex-col gap-8">
       <div>
-        <h1 className="text-2xl font-bold text-gray-800 mb-1">Report a Pothole</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mb-1">Place Holder</h1>
         <p className="text-sm text-gray-500">
-          Fill out the form below to report a pothole in Oakland.
+        Place Holder
         </p>
       </div>
 
@@ -25,7 +25,7 @@ function Report() {
       {/* Show submitted reports */}
       {reports.length > 0 && (
         <div>
-          <h2 className="text-lg font-bold text-gray-800 mb-3">Your Reports</h2>
+          <h2 className="text-lg font-bold text-gray-800 mb-3">Place Holder</h2>
           <div className="flex flex-col gap-4">
             {reports.map((report, index) => (
               <PotholeCard

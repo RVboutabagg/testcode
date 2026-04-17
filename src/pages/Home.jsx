@@ -3,29 +3,29 @@ import PotholeCard from "../Components/PotholeCard";
 
 const sampleReports = [
   {
-    location: "14th Ave & International Blvd",
-    description: "Large pothole near the crosswalk, causes cars to swerve.",
-    date: "3/24/2026",
-    severity: "high",
+    location: "Place Holder",
+    description: "Place Holder",
+    date: "Place Holder6",
+    severity: "Place Holder",
   },
   {
-    location: "MacArthur Blvd near 35th Ave",
-    description: "Small pothole on the right lane, minor bump.",
-    date: "3/22/2026",
-    severity: "low",
+    location: "Place Holder",
+    description: "Place Holder",
+    date: "Place Holder",
+    severity: "Place Holder",
   },
   {
-    location: "Telegraph Ave & 40th St",
-    description: "Medium-sized pothole forming near bus stop.",
-    date: "3/20/2026",
-    severity: "medium",
+    location: "Place Holder",
+    description: "Place Holder",
+    date: "Place Holder",
+    severity: "Place Holder",
   },
 ];
 
 function Home({ onNavigate }) {
   return (
     <div className="p-6 max-w-3xl mx-auto">
-      {/* Hero */}
+      
       <div className="bg-yellow-400 rounded-2xl p-6 mb-8 text-center">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Oakland Pothole Tracker</h1>
         <p className="text-gray-700 text-sm mb-4">
@@ -53,7 +53,7 @@ function Home({ onNavigate }) {
         </div>
       </div>
 
-      {/* Recent Reports */}
+      
       <h2 className="text-lg font-bold text-gray-800 mb-4">Recent Reports</h2>
       <div className="flex flex-col gap-4">
         {sampleReports.map((report, index) => (

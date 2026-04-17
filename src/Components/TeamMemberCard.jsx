@@ -7,7 +7,7 @@ function TeamMemberCard({ name, role, bio, imgUrl }) {
           {imgUrl ? (
             <img src={imgUrl} alt={name} className="w-full h-full object-cover" />
           ) : (
-            <span className="text-3xl">👤</span>
+            <span className="text-3xl"></span>
           )}
         </div>
         <div>

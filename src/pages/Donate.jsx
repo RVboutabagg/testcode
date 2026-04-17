@@ -5,19 +5,19 @@ import DonateList from "../Components/DonateList";
 
 const donatePlaces = [
   {
-    name: "Oakland Public Works",
-    description: "Directly support road repair in Oakland.",
-    url: "https://www.oaklandca.gov/departments/public-works",
+    name: "Place Holder",
+    description: "Place Holder",
+    url: "Place Holder",
   },
   {
-    name: "Fix Our Roads CA",
-    description: "California advocacy group for road infrastructure.",
-    url: "https://www.fixourroads.org",
+    name: "Place Holder",
+    description: "Place Holder",
+    url: "Place Holder",
   },
   {
-    name: "Street Repair Fund",
-    description: "Community-driven fund for local street improvements.",
-    url: "https://www.oaklandca.gov",
+    name: "Place Holder",
+    description: "Place Holder",
+    url: "Place Holder",
   },
 ];
 
@@ -42,13 +42,13 @@ function Donate() {
         <p className="text-sm text-gray-500">Support the effort to fix Oakland's roads.</p>
       </div>
 
-      {/* Donation Form */}
+      
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
         <h2 className="text-base font-bold text-gray-800 mb-4">Make a Donation</h2>
 
         {donated && (
           <p className="text-green-600 text-sm font-medium mb-4 bg-green-50 border border-green-200 rounded-lg px-3 py-2">
-            💛 Thank you for your donation!
+            Place Holder
           </p>
         )}
 
@@ -77,12 +77,12 @@ function Donate() {
             type="submit"
             className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-2 rounded-lg text-sm transition-colors"
           >
-            Donate Now
+            Place Holder
           </button>
         </form>
       </div>
 
-      {/* Places to donate */}
+      
       <DonateList places={donatePlaces} />
     </div>
   );

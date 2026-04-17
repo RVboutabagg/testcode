@@ -2,15 +2,15 @@
 
 function SeverityBadge({ severity }) {
     const styles = {
-      low: "bg-green-100 text-green-700 border border-green-300",
-      medium: "bg-yellow-100 text-yellow-700 border border-yellow-300",
-      high: "bg-red-100 text-red-700 border border-red-300",
+      low: "text-green-700 ",
+      medium: "text-yellow-700 ",
+      high: " text-red-700 ",
     };
   
     const labels = {
-      low: "Low",
-      medium: "Medium",
-      high: "High",
+      low: "Place Holder",
+      medium: "Place Holder",
+      high: "Place Holder",
     };
   
     const colorClass = styles[severity] || "bg-gray-100 text-gray-600 border border-gray-300";

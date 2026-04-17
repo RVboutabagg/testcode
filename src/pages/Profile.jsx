@@ -4,10 +4,10 @@ import UserCard from "../Components/UserCard";
 function Profile() {
   
   const user = {
-    name: "Your Name",
-    tagline: "Oakland resident & road advocate",
-    email: "yourname@email.com",
-    gender: "Not specified",
+    name: "Place Holder",
+    tagline: "Place Holder",
+    email: "Place Holder",
+    gender: "Place Holder",
     reportCount: 5,
   };
 
