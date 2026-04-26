@@ -35,11 +35,11 @@ function ReportForm({ onSubmit }) {
 
   return (
     <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm max-w-lg w-full">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Place Holder</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">Report a Pothole</h2>
 
       {submitted && (
         <p className="text-green-600 text-sm font-medium mb-4 bg-green-50 border border-green-200 rounded-lg px-3 py-2">
-          Place Holder
+          Thank you for the report
         </p>
       )}
 
@@ -47,7 +47,7 @@ function ReportForm({ onSubmit }) {
         
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-          Place Holder
+          Location o Pothole
           </label>
           <input
             type="text"
@@ -61,7 +61,7 @@ function ReportForm({ onSubmit }) {
        
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-          Place Holder
+          Condition of the road
           </label>
           <div className="flex flex-col gap-1">
             {conditions.map((c) => (
@@ -83,7 +83,7 @@ function ReportForm({ onSubmit }) {
         
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-          Place Holder
+          Severity of the pothole
           </label>
           <select
             value={severity}
@@ -99,7 +99,7 @@ function ReportForm({ onSubmit }) {
        
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-          Place Holder(inches)
+          Radius(inches)
           </label>
           <input
             type="number"
@@ -114,7 +114,7 @@ function ReportForm({ onSubmit }) {
           type="submit"
           className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-2 rounded-lg text-sm transition-colors"
         >
-         Place Holder
+         Submit Report
         </button>
       </form>
     </div>

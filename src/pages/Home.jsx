@@ -3,22 +3,22 @@ import PotholeCard from "../Components/PotholeCard";
 
 const sampleReports = [
   {
-    location: "Place Holder",
-    description: "Place Holder",
-    date: "Place Holder6",
-    severity: "Place Holder",
+    location: "East Oakland",
+    description: "Medium size pothole 2 inches deep",
+    date: "3/6/26",
+    severity: "Medium Severity",
   },
   {
-    location: "Place Holder",
-    description: "Place Holder",
-    date: "Place Holder",
-    severity: "Place Holder",
+    location: "West Oakland",
+    description: "Samll size pothole 1/2 inch deep",
+    date: "1/10/26",
+    severity: "Low Severity",
   },
   {
-    location: "Place Holder",
-    description: "Place Holder",
-    date: "Place Holder",
-    severity: "Place Holder",
+    location: "North Oakland",
+    description: "Large sie pothole 3 inches deep",
+    date: "4/18/26",
+    severity: "High Severity",
   },
 ];
 

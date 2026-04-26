@@ -1,7 +1,7 @@
 function DonateList({ places }) {
     return (
       <div className="bg-white border border-gray-200 rounded-xl p-5 max-w-lg w-full">
-        <h3 className="text-base font-bold text-gray-800 mb-3">Place Holder</h3>
+        <h3 className="text-base font-bold text-gray-800 mb-3">Places to donate to</h3>
         <ul className="flex flex-col gap-3">
           {places.map((place, index) => (
             <li key={index} className="flex items-center justify-between border border-gray-100 rounded-lg px-4 py-3 bg-gray-50">

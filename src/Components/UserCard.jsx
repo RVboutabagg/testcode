@@ -14,10 +14,10 @@ function UserCard({ name, tagline, email, gender, reportCount }) {
   
        
         <div className="w-full border border-gray-100 rounded-lg p-4 bg-gray-50 flex flex-col gap-2">
-          <h3 className="text-sm font-semibold text-gray-700 mb-1">Place Holder</h3>
+          <h3 className="text-sm font-semibold text-gray-700 mb-1">User Stats</h3>
           <p className="text-sm text-gray-600">{email}</p>
           <p className="text-sm text-gray-600">{gender}</p>
-          <p className="text-sm text-gray-600">{reportCount} Place Holder</p>
+          <p className="text-sm text-gray-600">{reportCount} reports made</p>
         </div>
       </div>
     );

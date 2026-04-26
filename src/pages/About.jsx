@@ -21,7 +21,7 @@ function About() {
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-2xl font-bold text-gray-800 mb-1">About Us</h1>
       <p className="text-sm text-gray-500 mb-8">
-      Place Holder
+      The ones behind Pothole Predators
       </p>
 
      
@@ -40,7 +40,7 @@ function About() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
         <h2 className="text-lg font-bold text-gray-800 mb-2">Our Mission</h2>
         <p className="text-sm text-gray-600 leading-relaxed">
-        Place Holder
+        The Mission of Pothile Predators is to help the community by having users input data about potholes they run into in Oakland that people can see and avoid. We also want to help fund the fixing of these potholes through donations by our users to websites that help with the filling of these potholes.
         </p>
       </div>
     </div>
