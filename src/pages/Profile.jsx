@@ -4,10 +4,9 @@ import UserCard from "../Components/UserCard";
 function Profile() {
   
   const user = {
-    name: "Place Holder",
-    tagline: "Place Holder",
-    email: "Place Holder",
-    gender: "Place Holder",
+    name: "Your Name",
+    email: "Your Email",
+    gender: "Your Gender",
     reportCount: 5,
   };
 

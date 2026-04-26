@@ -5,7 +5,7 @@ function Header({ currentPage, onNavigate }) {
   
     return (
       <header className="bg-gray-900 text-white px-6 py-4 flex items-center justify-between">
-        <h1 className="text-lg font-bold tracking-wide">Place Holder</h1>
+        <h1 className="text-lg font-bold tracking-wide">Pothole Predators</h1>
         <nav className="flex gap-2">
           {links.map((link) => (
             <button

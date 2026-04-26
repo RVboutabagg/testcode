@@ -6,12 +6,12 @@ const teamMembers = [
   {
     name: "Johann",
     role: "Co-Owner",
-    bio: "Place Holder",
+    bio: "Senior at Oakland Tech",
   },
   {
     name: "Rolo",
     role: "Co-Owner",
-    bio: "Place Holder",
+    bio: "Senior at Oakland Tech",
   },
   
 ];
@@ -24,7 +24,7 @@ function About() {
       Place Holder
       </p>
 
-      {/* Team Members */}
+     
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
         {teamMembers.map((member, index) => (
           <TeamMemberCard

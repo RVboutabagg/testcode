@@ -48,7 +48,7 @@ function Donate() {
 
         {donated && (
           <p className="text-green-600 text-sm font-medium mb-4 bg-green-50 border border-green-200 rounded-lg px-3 py-2">
-            Place Holder
+            Submit Donation
           </p>
         )}
 
